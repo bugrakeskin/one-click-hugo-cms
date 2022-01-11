@@ -1,24 +1,15 @@
-{{- define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end -}}
+{{ partial "header" . }}
 
-{{- define "content" -}}
-    {{- $params := .Scratch.Get "params" -}}
-    <div class="page single special">
-        {{- /* Title */ -}}
-        <h1 class="single-title animated pulse faster">
-            {{- .Title -}}
-        </h1>
+<main>
 
-        {{- /* Subtitle */ -}}
-        {{- with $params.subtitle -}}
-            <h2 class="single-subtitle">{{ . }}</h2>
-        {{- end -}}
-
-        {{- /* Content */ -}}
-        <div class="content" id="content">
-            {{- dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
-        </div>
-
-        {{- /* Comment */ -}}
-        {{- partial "comment.html" . -}}
+    <div>
+        <h2>{{ .Title }}</h2>
+        <h5>{{ .Description }}</h5>
+        {{ partial "tags" . }}
     </div>
-{{- end -}}
+
+    <div align="start" class="content">{{ .Content }}</div>
+
+</main>
+
+{{ partial "footer" . }}
