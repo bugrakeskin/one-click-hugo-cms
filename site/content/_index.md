@@ -52,4 +52,6 @@ I am also a huge crypto enthusiast. Lately, I helped my company to create a toke
 
 ---
 
-![BK](https://drive.google.com/file/d/164Ai-8fNKYnKV-spoBLIjM4h1NqidRJj/view?usp=sharing)
+<p align="center">
+  <img width="360" height="480" src="https://drive.google.com/uc?export=view&id=1QdWZTIlvA4gBbBQmhtu-SQtKSpBCHj-y">
+</p>
