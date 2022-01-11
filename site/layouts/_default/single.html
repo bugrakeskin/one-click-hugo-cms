@@ -1,15 +1,6 @@
-{{ partial "header" . }}
+{{ define "main" }}
 
-<main>
+{{ partial "jumbotron" (dict "imageUrl" "/img/7.jpg" "title" "This is where the heading goes" "subtitle" "This is where the subtitle goes") }}
+{{ .Content }}
 
-    <div>
-        <h2>{{ .Title }}</h2>
-        <h5>{{ .Description }}</h5>
-        {{ partial "tags" . }}
-    </div>
-
-    <div align="start" class="content">{{ .Content }}</div>
-
-</main>
-
-{{ partial "footer" . }}
+{{ end }}
