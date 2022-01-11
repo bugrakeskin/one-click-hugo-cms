@@ -4,13 +4,13 @@
 
 title = "Buğra Keskin"
 
-menu = "main"
+
 
 +++
 
   
 
-### Tech Enthusiast, brewing technologies for the needs of all businesses. 🚀
+#### Tech Enthusiast, brewing technologies for the needs of all kinds of businesses. 🚀
 
   
 
@@ -52,6 +52,7 @@ I am also a huge crypto enthusiast. Lately, I helped my company to create a toke
 
 ---
 
-<p align="center">
-  <img width="360" height="480" src="https://drive.google.com/uc?export=view&id=1QdWZTIlvA4gBbBQmhtu-SQtKSpBCHj-y">
-</p>
+
+
+
+![Buğra Keskin](https://drive.google.com/uc?export=view&id=1QdWZTIlvA4gBbBQmhtu-SQtKSpBCHj-y)
