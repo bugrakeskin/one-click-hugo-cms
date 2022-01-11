@@ -31,6 +31,8 @@
   .title {
     text-decoration: none;
     border: 0;
+	color: #fbc02d;
+	
   }
 
   .title span {
