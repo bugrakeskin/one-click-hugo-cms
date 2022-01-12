@@ -45,7 +45,7 @@ In recent years my focus is on leading an operation to handle all requests comin
 [Lets talk business](mailto:bugra.keskin@gmail.com)
 
  
-I am also a huge crypto enthusiast. Lately, I helped my company to create a token called **GMCoin** (*TRC20*).Also, i help to design a business model for changing the whole business entirely. Which called the **decentralized business model**.
+I am also a huge crypto enthusiast. Lately, I helped my company to create a token called **GMCoin** (*TRC10*).Also, i help to design a business model for changing the whole business entirely. Which called the **decentralized business model**.
 
 ---
 <code> Languages</code> Feel free to [get in touch](mailto:bugra.keskin@gmail.com) in Turkish and/or English.
