@@ -1,196 +1,191 @@
-# LoveIt Theme | Hugo [![Netlify Status](https://api.netlify.com/api/v1/badges/e60303f2-862c-4342-bf59-7c9adb10812e/deploy-status)](https://app.netlify.com/sites/hugo-loveit/deploys)
+# Hallo
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/dillonzq/LoveIt?style=flat-square)](https://github.com/dillonzq/LoveIt/releases)
-[![Hugo](https://img.shields.io/badge/Hugo-%5E0.62.0-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
-[![License](https://img.shields.io/github/license/dillonzq/LoveIt?style=flat-square)](https://github.com/dillonzq/LoveIt/blob/master/LICENSE)
-[![CircleCI](https://img.shields.io/circleci/build/github/dillonzq/LoveIt/develop?label=CI&style=flat-square&logo=circleci)](https://app.circleci.com/pipelines/github/dillonzq/LoveIt)
+[![Build Status](https://travis-ci.com/EmielH/hallo-hugo.svg?branch=master)](https://travis-ci.com/EmielH/hallo-hugo)
 
-English README | [简体中文说明](https://github.com/dillonzq/LoveIt/blob/master/README.zh-cn.md)
+Hallo is a single-page Hugo theme to introduce yourself. Add a portrait, an introduction, several links, and you're set.
 
-> **LoveIt** is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/).
+![Hallo screenshot](https://raw.githubusercontent.com/EmielH/hallo-hugo/master/images/screenshot.png)
 
-It is based on the original [LeaveIt Theme](https://github.com/liuzc/LeaveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
+## Installation
 
-Since the three themes have a similar look, if you have questions about their differences,
-read [Why choose LoveIt](#why-choose-loveit) so that you can choose the one that works best for you.
+### 1. Install the theme
 
-![Hugo Theme LoveIt](https://github.com/dillonzq/LoveIt/raw/master/images/Apple-Devices-Preview.png)
+If your site is also under version control using git, the easiest way to install this theme is to add it as a submodule. If you have not created a git repo for your project yet, you need to run `git init` beforehand. Inside the folder of your Hugo site, run the following command.
 
-## [Demo Site](https://hugoloveit.com/)
-
-To see this theme in action, here is a live [demo site](https://hugoloveit.com/) which is rendered with **LoveIt** theme.
-
-## Why choose LoveIt
-
-Compared to the original LeaveIt theme and the KeepIt theme, the LoveIt theme has the following modifications.
-
-* Custom **Header**
-* Custom **CSS Style**
-* A new **home page**, compatible with the latest version of Hugo
-* A lot of **style detail adjustments,** including color, font size, margins, code preview style
-* More readable **dark mode**
-* Some beautiful **CSS animations**
-* Easy-to-use and self-expanding **table of contents**
-* More **social links**, **share sites** and **comment system**
-* **Search** supported by [Lunr.js](https://lunrjs.com/) or [algolia](https://www.algolia.com/)
-* **Copy code** to clipboard with one click
-* Extended Markdown syntax for **[Font Awesome](https://fontawesome.com/) icons**
-* Extended Markdown syntax for **ruby annotation**
-* Extended Markdown syntax for **fraction**
-* **Mathematical formula** supported by [KaTeX](https://katex.org/)
-* **Diagram syntax** shortcode supported by [mermaid](https://github.com/knsv/mermaid)
-* **Interactive data visualization** shortcode supported by [ECharts](https://echarts.apache.org/)
-* **Mapbox** shortcode supported by [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js)
-* Embedded **music player** supported by [APlayer](https://github.com/MoePlayer/APlayer) and [MetingJS](https://github.com/metowolf/MetingJS)
-* **Bilibili** player supported
-* Kinds of **admonitions** shortcode supported
-* Custom style shortcodes supported
-* **CDN** for all third-party libraries supported
-* ...
-
-In short,
-if you prefer the design language and freedom of the LoveIt theme,
-if you want to use the extended Font Awesome icons conveniently,
-if you want to embed mathematical formulas, flowcharts, music or Bilibili videos in your posts,
-the LoveIt theme may be more suitable for you.
-
-I hope you will LoveIt ❤️!
-
-## Features
-
-### Performance and SEO
-
-* Optimized for **performance**: 99/100 on mobile and 100/100 on desktop in [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights)
-* Optimized SEO performance with a correct **SEO SCHEMA** based on JSON-LD
-* **[Google Analytics](https://analytics.google.com/analytics)** supported
-* **[Fathom Analytics](https://usefathom.com/)** supported
-* Search engine **verification** supported (Google, Bind, Yandex and Baidu)
-* **CDN** for third-party libraries supported
-* Automatically converted images with **Lazy Load** by [lazysizes](https://github.com/aFarkas/lazysizes)
-
-### Appearance and Layout
-
-* **Responsive** layout
-* **Light/Dark** mode
-* Globally consistent **design language**
-* **Pagination** supported
-* Easy-to-use and self-expanding **table of contents**
-* **Multilanguage** supported and i18n ready
-* Beautiful **CSS animation**
-
-### Social and Comment Systems
-
-* **Gravatar** supported by [Gravatar](https://gravatar.com)
-* Local **Avatar** supported
-* Up to **64** social links supported
-* Up to **28** share sites supported
-* **Disqus** comment system supported by [Disqus](https://disqus.com)
-* **Gitalk** comment system supported by [Gitalk](https://github.com/gitalk/gitalk)
-* **Valine** comment system supported by [Valine](https://valine.js.org/)
-* **Facebook comments** system supported by [Facebook](https://developers.facebook.com/docs/plugins/comments/)
-* **Telegram comments** system supported by [Telegram Comments](https://comments.app/)
-* **Commento** comment system supported by [Commento](https://commento.io/)
-* **Utterances** comment system supported by [Utterances](https://utteranc.es/)
-
-### Extended Features
-
-* **Search** supported by [Lunr.js](https://lunrjs.com/) or [algolia](https://www.algolia.com/)
-* **Twemoji** supported
-* Automatically **highlighting** code
-* **Copy code** to clipboard with one click
-* **Images gallery** supported by [lightgallery.js](https://github.com/sachinchoolur/lightgallery.js)
-* Extended Markdown syntax for **[Font Awesome](https://fontawesome.com/) icons**
-* Extended Markdown syntax for **ruby annotation**
-* Extended Markdown syntax for **fraction**
-* **Mathematical formula** supported by [KaTeX](https://katex.org/)
-* **Diagrams** shortcode supported by [mermaid](https://github.com/knsv/mermaid)
-* **Interactive data visualization** shortcode supported by [ECharts](https://echarts.apache.org/)
-* **Mapbox** shortcode supported by [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js)
-* **Music player** shortcode supported by [APlayer](https://github.com/MoePlayer/APlayer) and [MetingJS](https://github.com/metowolf/MetingJS)
-* **Bilibili player** shortcode
-* Kinds of **admonitions** shortcode
-* **Custom style** shortcode
-* **Custom script** shortcode
-* **Animated typing** supported by [TypeIt](https://typeitjs.com/)
-* **Dynamic scroll** supported by [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* **Cookie consent banner** supported by [cookieconsent](https://github.com/osano/cookieconsent)
-* ...
-
-## [Documentation](https://hugoloveit.com/categories/documentation/)
-
-Build Documentation Locally:
-
-```bash
-hugo server --source=exampleSite
+```
+git submodule add https://github.com/EmielH/hallo-hugo.git themes/hallo
 ```
 
-## Multilingual and i18n
+Alternatively, you can clone the theme into your project.
 
-LoveIt supports the following languages:
+```
+git clone https://github.com/EmielH/hallo-hugo.git themes/hallo
+```
 
-* English
-* Simplified Chinese
-* French
-* Polish
-* Brazilian Portuguese
-* Italian
-* Spanish
-* German
-* Serbian
-* Russian
-* Romanian
-* Vietnamese
-* [Contribute with a new language](https://github.com/dillonzq/LoveIt/pulls)
+### 2. Configure Hugo
 
-[Languages Compatibility](https://hugoloveit.com/theme-documentation-basics/#language-compatibility)
+Add the following line to `config.toml` to tell Hugo to use the theme.
 
-## [Roadmap](https://github.com/dillonzq/LoveIt/projects/1)
+```
+theme = "hallo"
+```
 
-## Questions, ideas, bugs, pull requests
+Alternatively, you can tell Hugo to use the theme with the `server` command.
 
-All feedback is welcome! Head over to the [issue tracker](https://github.com/dillonzq/LoveIt/issues).
+```
+hugo server -t hallo
+```
+
+_[Hugo setup guide](https://gohugo.io/overview/installing/)_
+
+### Update the theme
+
+If you have installed the theme as a git submodule, you can update the theme by issuing the following command inside your project folder.
+
+```
+git submodule update --remote --rebase
+```
+
+If you have cloned the theme, you can run `git pull` inside the theme folder.
+
+## Configuration
+
+### Portrait
+
+Put your own portrait in `/static/images/portrait.jpg` of your own site and Hugo wil automatically use that portraid instead of the standard one. It's not necessary to alter the theme.
+
+### Introduction
+
+Put your own introduction text in `/layouts/partials/introduction.html` of your own site and Hugo wil automatically use that introduction instead of the standard one. It's not necessary to alter the theme.
+
+### Name
+
+Hallo will use the name of the author that has been configured in the `Author` section of your site's `config.toml`. Add the lines below to your `config.toml` to configure the name.
+
+```
+[Author]
+    name = "Emiel"
+```
+
+### Links
+
+You can put your own links below the introduction text, for example to link to your social media accounts or to include your e-mail address. These links use icons from FontAwesome. The links can be configured in the `params` section of your site's `config.toml`. This is an example configuration for a link to Github:
+
+```
+[params]
+    [[params.links]]
+        icon = "github"
+        title = "Github"
+        url = "https://github.com/"
+```
+
+Hallo by default allows you to choose an icon from [the brands set](https://fontawesome.com/icons?d=gallery&s=brands&m=free). Put the name of the icon in the `icon` parameter. This set is the default set because these links will mostly be used for links to social media.
+
+It is possible to use an icon from [the solid set](https://fontawesome.com/icons?d=gallery&s=solid&m=free). To do this, specify the icon set, like this:
+
+```
+    [[params.links]]
+        iconset = "fas"
+        icon = "envelope"
+        title = "E-mail"
+        url = "mailto:mail@example.org"
+```
+
+It is also possible to use an icon from [the Academicon set](https://jpswalsh.github.io/academicons/). To do this, specify the icon set and icon origin.
+
+```
+    [[params.links]]
+        iconorigin = "ai"
+        iconset = "ai"
+        icon = "google-scholar"
+        title = "Google Scholar"
+        url = "https://scholar.google.com"
+```
+
+### Additional content
+
+It's possible to add additional content to your site, for example a contact form. You can add this in `/layouts/partials/content.html`. Additional content will always be added "below the fold", ie. your introduction will always fill 100% of the height of the screen.
+
+To link to your additional information using one of the icon links, add an id to one of the tags in the content, like so:
+
+```
+<h3 id="info">Additional information</h3>
+
+<p>Lorem ipsum</p>
+```
+
+You can then add a link to this additional information in your site config, like so:
+
+```
+[params]
+    [[params.links]]
+        iconset = "fas"
+        icon = "info-circle"
+        title = "Additional information"
+        url = "#info"
+```
+
+### Internationalisation (i18n)
+
+Hallo supports using other languages than English. Language files for the texts Hallo uses are provided in the `i18n` directory. The default language is English. To switch languages, add the key `defaultContentLanguage` to your `config.toml` file. For example:
+
+```
+defaultContentLanguage = "nl"
+```
+
+To translate texts your site uses, add an `i18n` folder to your site.
+
+Feel free to submit pull requests for other translations of Hallo's texts.
+
+_[Hugo documentation for multilingual sites](//gohugo.io/content-management/multilingual/)_
+
+### Colors
+
+You can alter the colors of your website using configuration options. Add the following to the `[params]` section of your `config.toml` for an alternate color scheme:
+
+```
+    [params.colors]
+        background = "#81c6ff"
+        foreground = "#edf7ff"
+        hover = "#ffba82"
+```
+
+* `background`: Used as background color of the site.
+* `foreground`: Used for text and the border of the portrait.
+* `hover`: Used for hover of links.
+
+> **Warning: When using Hugo Basic, you need to perform additional steps to make custom colors work.**
+>
+> If you get the following error message while building your site, you're using Hugo Basic:
+>
+> `error: failed to transform resource: TOCSS: failed to transform "style.hallo.scss" (text/x-scss): this feature is not available in your current Hugo version`
+>
+> The SCSS needs to be transpiled for your custom colors, which is something Hugo Basic cannot do. For the standard colors, the transpiled SCSS comes with the theme.
+>
+> If you're stuck with Hugo Basic, e.g. because your Hugo site is generated on a server that only has Hugo Basic installed, you can get custom colors to work by performing the following steps.
+>
+> 1. Install Hugo Extended on your local machine.
+> 2. Generate your site locally by running `hugo` on your local machine.
+> 3. Commit the generated `resources` folder to the root folder of your site. This folder can be found inside the `public` folder after running `hugo`.
+>
+> Hugo Basic will then use this `resources` folder to find the transpiled SCSS.
+
+### Greeting text
+
+By default, the theme uses the translation of the word 'Hello' for the language of your site. You can also choose to alter this text completely. To do so, add the parameter `greeting` to your `config.toml`, like so:
+
+```
+[params]
+    greeting = "Greetings!"
+```
+
+### Google Analytics
+
+The theme supports Google Analytics. To use Google Analytics, specify the parameter `googleAnalytics` in your `config.toml`. This will add the code for Google Analytics when you generate your site for production. It will not be included for any environment other than production (e.g. when using `hugo serve`).
+
+## Acknowledgments
+
+Stock portrait photo obtained [here](https://www.pexels.com/photo/adult-beautiful-blonde-blur-324658/).
 
 ## License
-
-LoveIt is licensed under the **MIT** license. Check the [LICENSE file](https://github.com/dillonzq/LoveIt/blob/master/LICENSE) for details.
-
-Thanks to the authors of following resources included in the theme:
-
-* [normalize.css](https://github.com/necolas/normalize.css)
-* [Font Awesome](https://fontawesome.com/)
-* [Simple Icons](https://github.com/simple-icons/simple-icons)
-* [Animate.css](https://daneden.github.io/animate.css/)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [autocomplete.js](https://github.com/algolia/autocomplete.js)
-* [Lunr.js](https://lunrjs.com/)
-* [algoliasearch](https://github.com/algolia/algoliasearch-client-javascript)
-* [lazysizes](https://github.com/aFarkas/lazysizes)
-* [object-fit-images](https://github.com/fregante/object-fit-images)
-* [Twemoji](https://github.com/twitter/twemoji)
-* [lightgallery.js](https://github.com/sachinchoolur/lightgallery.js)
-* [clipboard.js](https://github.com/zenorocha/clipboard.js)
-* [Sharer.js](https://github.com/ellisonleao/sharer.js)
-* [TypeIt](https://typeitjs.com/)
-* [KaTeX](https://katex.org/)
-* [mermaid](https://github.com/knsv/mermaid)
-* [ECharts](https://echarts.apache.org/)
-* [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js)
-* [APlayer](https://github.com/MoePlayer/APlayer)
-* [MetingJS](https://github.com/metowolf/MetingJS)
-* [Gitalk](https://github.com/gitalk/gitalk)
-* [Valine](https://valine.js.org/)
-* [cookieconsent](https://github.com/osano/cookieconsent)
-
-## Author
-
-[Dillon](https://dillonzq.com)
-
-## Sponsor
-
-If you enjoy the theme, please consider buying me a coffee ☕️.
-
-* [PayPal](https://paypal.me/dillonzq)
-* [Alipay](https://github.com/dillonzq/LoveIt/raw/master/images/Alipay.jpg)
-* [Wechat](https://github.com/dillonzq/LoveIt/raw/master/images/Wechat.jpg)
-
-Thanks! ❤️
+See [LICENSE](https://github.com/EmielH/hallo-hugo/blob/master/LICENSE).
