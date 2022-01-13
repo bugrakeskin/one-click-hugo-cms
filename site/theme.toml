@@ -1,19 +1,16 @@
-# theme.toml template for a Hugo theme
-# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+# Congo theme for Hugo
 
-name = "UILite"
+name = "congo"
 license = "MIT"
-licenselink = "https://github.com/uicardiodev/hugo-uilite/blob/master/LICENSE.md"
-description = "Hugo UILite theme is designed for developers and desginers so that they can showcase their work without any struggle"
-homepage = "https://uicard.io/products/hugo-uilite"
-tags = ["minimal","responsive","clean","modern","colors","portfolio","blog","skills","experience","services","uicardio"]
-features = ["blog","services","portfolio","contact","skills","formspree","responsive"]
-min_version = "0.31.1"
+licenselink = "https://github.com/jpanther/congo/blob/master/LICENSE"
+description = "A simple, lightweight theme for Hugo built with Tailwind CSS."
+
+homepage = "https://github.com/jpanther/congo/"
+demosite = "https://jpanther.github.io/congo/"
+
+tags = ["blog", "minimal", "responsive", "dark mode", "dark", "light", "tailwind", "personal"]
+features = ["syntax higlighting", "dark mode", "emoji"]
 
 [author]
-  name = "UICardio"
-  homepage = "https://uicard.io/products/sodium-hugo-theme"
-
-[developer]
-	name = "Arvind"
-	homepage = "https://heyarviind.com"
+  name = "James Panther"
+  homepage = "https://jamespanther.com/"
