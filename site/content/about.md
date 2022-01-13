@@ -49,6 +49,4 @@ I am also a huge crypto enthusiast. Lately, I helped my company to create a toke
 ---
 
 
-
-
-![Buğra Keskin](https://drive.google.com/uc?export=view&id=1QdWZTIlvA4gBbBQmhtu-SQtKSpBCHj-y)
+![Buğra Keskin](bk.jpg)

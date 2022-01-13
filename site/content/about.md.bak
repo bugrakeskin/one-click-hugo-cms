@@ -3,23 +3,52 @@ title = "About"
 description = "Hugo, the world's fastest framework for building websites"
 date = "2019-02-28"
 aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
+author = "Buğra"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+#### Tech Enthusiast, brewing technologies for the needs of all kinds of businesses. 🚀
 
-Hugo makes use of a variety of open source projects including:
+  
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+## Hi there, my name is Buğra. I'm a network administrator, system analyst, IT specialist with a passion for implementing new technologies for companies.
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+  
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+I have 15yrs+ experience working as a professional information Technologies expert. For more details check out [My Resume](https://drive.google.com/file/d/1Y_ByC-Jg0ZlROR9rpE7JR4Sv2WOmWrZD/view?usp=sharing)
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+  
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+---
+
+👨‍🚀 **Hire me** I’m happy to talk about work engagements for 2022, [Reach out](mailto:bugra.keskin@gmail.com)
+
+  
+
+---
+
+In recent years my focus is on leading an operation to handle all requests coming from contracted companies.
+
+  
+
+- Do I need a server to operate?
+
+- Can you prepare me a small app to manage this?
+
+- Help me to build an AIO documentation portal.
+
+- How can I access all my files online and everywhere?
+
+[Lets talk business](mailto:bugra.keskin@gmail.com)
+
+ 
+I am also a huge crypto enthusiast. Lately, I helped my company to create a token called **GMCoin** (*TRC10*).Also, i help to design a business model for changing the whole business entirely. Which called the **decentralized business model**.
+
+---
+<code> Languages</code> Feel free to [get in touch](mailto:bugra.keskin@gmail.com) in Turkish and/or English.
+
+---
+
+
+
+
+![Buğra Keskin](https://drive.google.com/uc?export=view&id=1QdWZTIlvA4gBbBQmhtu-SQtKSpBCHj-y)
