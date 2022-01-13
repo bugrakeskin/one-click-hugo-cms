@@ -139,11 +139,11 @@
     h6,
     strong,
     b {
-      color: #eee;
+      color: #222;
     }
 
     a {
-      color: #8cc2dd;
+      color: #2d68fb;
     }
 
     code {
