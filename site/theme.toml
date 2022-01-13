@@ -1,16 +1,27 @@
-# Congo theme for Hugo
-
-name = "congo"
+name = "Coder"
 license = "MIT"
-licenselink = "https://github.com/jpanther/congo/blob/master/LICENSE"
-description = "A simple, lightweight theme for Hugo built with Tailwind CSS."
-
-homepage = "https://github.com/jpanther/congo/"
-demosite = "https://jpanther.github.io/congo/"
-
-tags = ["blog", "minimal", "responsive", "dark mode", "dark", "light", "tailwind", "personal"]
-features = ["syntax higlighting", "dark mode", "emoji"]
+licenselink = "https://github.com/luizdepra/hugo-coder/blob/master/LICENSE.md"
+description = "A simple and clean blog theme for Hugo"
+homepage = "https://github.com/luizdepra/hugo-coder/"
+tags = [
+  "blog",
+  "minimal",
+  "minimalist",
+  "responsive",
+  "simple",
+  "clean",
+  "personal"
+]
+features = [
+  "analytics",
+  "favicon",
+  "multilingual",
+  "pagination",
+  "single-column",
+  "syntax-highlighting"
+]
+min_version = "0.79.0"
 
 [author]
-  name = "James Panther"
-  homepage = "https://jamespanther.com/"
+name = "Luiz F. A. de Prá"
+homepage = "https://luizdepra.com"

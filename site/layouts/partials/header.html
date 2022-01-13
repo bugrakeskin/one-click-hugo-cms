@@ -1,45 +1,39 @@
-<header
-  class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral"
->
-  {{/* Site logo/title */}}
-  <div>
-    {{ if .Site.Params.Logo -}}
-      {{ $logo := resources.Get .Site.Params.Logo }}
-      {{ if $logo }}
-        <a href="{{ "/" | relURL }}">
-          <img
-            src="{{ $logo.RelPermalink }}"
-            width="{{ div $logo.Width 2 }}"
-            height="{{ div $logo.Height 2 }}"
-            class="max-w-[10rem] max-h-[10rem] object-scale-down object-left"
-            alt="{{ .Site.Title }}"
-          />
-        </a>
-      {{ end }}
-    {{ else }}
-      <a
-        class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small"
-        rel="me"
-        href="{{ "/" | relURL }}"
-        >{{ .Site.Title | markdownify | emojify }}</a
-      >
-    {{- end }}
-  </div>
-  {{/* Main menu */}}
-  {{ if .Site.Menus.main }}
-    <nav>
-      <ul class="flex flex-col list-none sm:flex-row">
-        {{ range .Site.Menus.main }}
-          <li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
-            <a
-              class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small"
-              href="{{ .URL }}"
-              title="{{ .Title }}"
-              >{{ .Name | markdownify | emojify }}</a
-            >
-          </li>
+<nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="{{ .Site.BaseURL | relLangURL }}">
+      {{ .Site.Title }}
+    </a>
+    {{ if or .Site.Menus.main .Site.IsMultiLingual }}
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        {{ with .Site.Menus.main}}
+          {{ range sort . }}
+            <li class="navigation-item">
+              <a class="navigation-link" href="{{ index (apply (slice .URL) (.Params.urlFunc | default "relLangURL") ".") 0 }}">{{ .Name }}</a>
+            </li>
+          {{ end }}
+        {{ end }}
+        {{ if .Site.IsMultiLingual }}
+          {{ $node := . }}
+          {{ .Scratch.Set "separator" true }}
+          {{ range (default .Site.Home.AllTranslations .Translations) }}
+            {{ if ne $.Site.Language .Language }}
+              {{ if $node.Scratch.Get "separator" }}
+                <li class="navigation-item menu-separator">
+                  <span>|</span>
+                </li>
+                {{ $node.Scratch.Set "separator" false }}
+              {{ end }}
+              <li class="navigation-item">
+                <a href="{{ .Permalink }}">{{ .Language.LanguageName | emojify }}</a>
+              </li>
+            {{ end }}
+          {{ end }}
         {{ end }}
       </ul>
-    </nav>
-  {{ end }}
-</header>
+    {{ end }}
+  </section>
+</nav>
