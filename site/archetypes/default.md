@@ -1,22 +1,28 @@
-+++
-title = "{{ replace .Name "-" " " | title }}"
-date = "{{ .Date }}"
+---
+title: "{{ replace .TranslationBaseName "-" " " | title }}"
+subtitle: ""
+date: {{ .Date }}
+lastmod: {{ .Date }}
+draft: true
+author: ""
+authorLink: ""
+description: ""
 
-#
-# Set menu to "main" to add this page to
-# the main menu on top of the page
-#
-menu = "main"
+tags: []
+categories: []
 
-#
-# description is optional
-#
-# description = "An optional description for SEO. If not provided, an automatically created summary will be used."
+hiddenFromHomePage: false
+hiddenFromSearch: false
 
-#
-# tags are optional
-#
-# tags = [{{ range $plural, $terms := .Site.Taxonomies }}{{ range $term, $val := $terms }}"{{ printf "%s" $term }}",{{ end }}{{ end }}]
-+++
+featuredImage: ""
+featuredImagePreview: ""
 
-This is a page about »{{ replace .Name "-" " " | title }}«.
+toc:
+  enable: true
+math:
+  enable: false
+lightgallery: false
+license: ""
+---
+
+<!--more-->
