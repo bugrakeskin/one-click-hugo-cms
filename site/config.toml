@@ -138,7 +138,7 @@ url = "about/"
 
 [[languages.en.menu.main]]
 name = "Contact me"
-weight = 5
+weight = 3
 url = "contact/"
 
 
