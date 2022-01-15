@@ -49,4 +49,4 @@ I am also a huge crypto enthusiast. Lately, I helped my company to create a toke
 ---
 
 
-![Buğra Keskin](static/images/bk.jpg)
+![Buğra Keskin](images/bk.jpg)

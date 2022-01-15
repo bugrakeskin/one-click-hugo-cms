@@ -17,7 +17,7 @@ description = "Buğra Keskin - IT Expert"
 keywords = "Buğra Keskin,Buğra,Keskin"
 info = ["IT Expert", "Magician"]
 avatarURL = "images/avatar.jpg"
-gravatar = "bugra.keskin@gmail.com"
+#gravatar = "bugra.keskin@gmail.com"
 dateFormat = "January 2, 2006"
 since = 2022
 # Git Commit in Footer, uncomment the line below to enable it
