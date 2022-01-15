@@ -1,7 +1,7 @@
 +++
 title = "About"
 description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
+date = "2020-02-28"
 aliases = ["about-me,"contact"]
 author = "Buğra"
 +++
@@ -49,4 +49,4 @@ I am also a huge crypto enthusiast. Lately, I helped my company to create a toke
 ---
 
 
-![Buğra Keskin](/images/bk.jpg)
+![Buğra Keskin](/static/images/bk.jpg)
