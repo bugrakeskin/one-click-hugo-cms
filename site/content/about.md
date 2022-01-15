@@ -46,9 +46,6 @@ I am also a huge crypto enthusiast. Lately, I helped my company to create a toke
 ---
 <code> Languages</code> Feel free to [get in touch](mailto:bugra.keskin@gmail.com) in Turkish and/or English.
 
----
 
+![Buğra Keskin](/images/bk.jpg)
 
-![Buğra Keskin](/static/images/bk.jpg)
-![Buğra Keskin](bk.jpg)
-![Buğra Keskin](/bk.jpg)
