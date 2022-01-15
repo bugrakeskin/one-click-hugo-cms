@@ -126,19 +126,24 @@ name = "About"
 weight = 1
 url = "about/"
 
+[[languages.en.menu.main]]
+name = "My Resume"
+weight = 2
+url = "https://drive.google.com/file/d/1Y_ByC-Jg0ZlROR9rpE7JR4Sv2WOmWrZD/view?usp=sharing"
+
 #[[languages.en.menu.main]]
 #name = "Blog"
-#weight = 2
+#weight = 5
 #url = "posts/"
 
 #[[languages.en.menu.main]]
 #name = "Projects"
-#weight = 3
+#weight = 4
 #url = "projects/"
 
 [[languages.en.menu.main]]
 name = "Contact me"
-weight = 4
+weight = 3
 url = "contact/"
 
 
