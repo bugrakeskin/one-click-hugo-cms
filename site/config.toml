@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "🅑🅚  |  Buğra Keskin"
+title = "🅑🅚|Buğra Keskin"
 
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -15,7 +15,7 @@ enableEmoji = true
 author = "Buğra Keskin"
 description = "Buğra Keskin - IT Expert"
 keywords = "Buğra Keskin,Buğra,Keskin"
-info = ["IT Expert", "Magician"]
+info = ["Information Technologies Expert", "Static Web Page Builder","Platform Creator"]
 avatarURL = "images/avatar.jpg"
 #gravatar = "bugra.keskin@gmail.com"
 dateFormat = "January 2, 2006"
@@ -138,7 +138,7 @@ url = "about/"
 
 [[languages.en.menu.main]]
 name = "Contact me"
-weight = 3
+weight = 4
 url = "contact/"
 
 
