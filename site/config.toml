@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "🅑🅚 | Buğra Keskin"
+title = "🅑🅚  |  Buğra Keskin"
 
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -17,7 +17,7 @@ description = "Buğra Keskin - IT Expert"
 keywords = "Buğra Keskin,Buğra,Keskin"
 info = ["IT Expert", "Magician"]
 avatarURL = "images/avatar.jpg"
-#gravatar = "bugra.keskin@gmail.com"
+gravatar = "bugra.keskin@gmail.com"
 dateFormat = "January 2, 2006"
 since = 2022
 # Git Commit in Footer, uncomment the line below to enable it
@@ -110,6 +110,12 @@ name = "LinkedIn"
 icon = "fa fa-2x fa-linkedin"
 weight = 4
 url = "https://www.linkedin.com/in/bu%C4%9Fra-keskin-29057538/"
+
+[[params.social]]
+name = "Email"
+icon = "fa fa-2x fa-envelope"
+weight = 5
+url = "mailto:bugra.keskin@gmail.com"
 
 
 [languages.en]
