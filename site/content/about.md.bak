@@ -14,7 +14,7 @@ author = "Buğra"
 
   
 
-I have 15yrs+ experience working as a professional information Technologies expert. For more details check out [My Resume](https://drive.google.com/file/d/1Y_ByC-Jg0ZlROR9rpE7JR4Sv2WOmWrZD/view?usp=sharing) Also check my page on www.[kariyer.net](www.kariyer.net/ozgecmis/bugrakeskin15?o=c15o ) 
+I have 15yrs+ experience working as a professional information Technologies expert. For more details check out [My Resume](https://drive.google.com/file/d/1Y_ByC-Jg0ZlROR9rpE7JR4Sv2WOmWrZD/view?usp=sharing) Also check [my page] (www.kariyer.net/ozgecmis/bugrakeskin15?o=c15o) on (kariyer net)
 
   
 
