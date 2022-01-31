@@ -27,7 +27,7 @@
     }
 
     .title-link {
-      color: inherit;
+      color: #fbc02d;
       font-weight: inherit;
       text-decoration: none;
     }
