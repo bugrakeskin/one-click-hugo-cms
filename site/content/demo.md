@@ -4,4 +4,6 @@ slug = "Demo"
 layout = "3d"
 +++
 
-Nothing to see here... Move along!
+{{ .is3d}}
+ <script src="viewhome.min.js">
+{{ end }}
