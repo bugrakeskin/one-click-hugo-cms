@@ -146,4 +146,9 @@ name = "Contact me"
 weight = 3
 url = "contact/"
 
+[[languages.en.menu.main]]
+name = "demo"
+weight = 4
+url = "demo/"
+
 
