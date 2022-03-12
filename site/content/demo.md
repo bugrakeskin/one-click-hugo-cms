@@ -8,4 +8,4 @@ layout = "3d"
 
 
 
-<script src="{{ .Site.BaseURL }}/js/lib/viewhome.min.js"></script>
+<script src="{{ .Site.BaseURL }}js/lib/viewhome.min.js"></script>
