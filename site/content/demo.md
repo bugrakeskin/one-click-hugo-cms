@@ -4,6 +4,8 @@ slug = "Demo"
 layout = "3d"
 +++
 
-{{ .is3d}}
- <script src="js/lib/viewhome.min.js">
-{{ end }}
+
+
+
+
+<script src="{{ .Site.BaseURL }}/js/lib/viewhome.min.js"></script>

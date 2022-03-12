@@ -8,3 +8,15 @@ layout = "3d"
  <script src="js/lib/viewhome.min.js">
 {{ end }}
 
+<!--  Copy the following scripts in your page header -->
+<script type="text/javascript" src="js/lib/big.min.js"></script>
+<script type="text/javascript" src="js/lib/gl-matrix-min.js"></script>
+<script type="text/javascript" src="js/lib/jszip.min.js"></script>
+<script type="text/javascript" src="js/lib/core.min.js"></script>
+<script type="text/javascript" src="js/lib/geom.min.js"></script>
+<script type="text/javascript" src="js/lib/stroke.min.js"></script>
+<script type="text/javascript" src="js/lib/batik-svgpathparser.min.js"></script>
+<script type="text/javascript" src="js/lib/jsXmlSaxParser.min.js"></script>
+<script type="text/javascript" src="js/lib/triangulator.min.js"></script>
+<script type="text/javascript" src="js/lib/viewmodel.min.js"></script>
+<script type="text/javascript" src="js/lib/viewhome.min.js"></script>
