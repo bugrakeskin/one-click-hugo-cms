@@ -1,87 +1,31 @@
-<!--
-   SweetHome3DJSViewer.html  version 6.6.2  
-   
-   Sweet Home 3D, Copyright (c) 2021 Emmanuel PUYBARET / eTeks <info@eteks.com>
-   
-   This program is free software; you can redistribute it and/or modify
-   it under the terms of the GNU General Public License as published by
-   the Free Software Foundation; either version 2 of the License, or
-   (at your option) any later version.
- 
-   This program is distributed in the hope that it will be useful,
-   but WITHOUT ANY WARRANTY; without even the implied warranty of
-   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-   GNU General Public License for more details.
-
-   You should have received a copy of the GNU General Public License
-   along with this program; if not, write to the Free Software
-   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
--->
-<!--
-  To view this file locally without a HTTP server, be sure to allow access from files in your browser   
-  https://www.google.com/search?q=allow+access+from+files  
- -->
-<html>
-<head>
+<html><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>View home with Sweet Home 3D JS Viewer</title>
 
-<!--  Copy the following scripts in your page header -->
-<script type="text/javascript" src="js/lib/big.min.js"></script>
-<script type="text/javascript" src="js/lib/gl-matrix-min.js"></script>
-<script type="text/javascript" src="js/lib/jszip.min.js"></script>
-<script type="text/javascript" src="js/lib/core.min.js"></script>
-<script type="text/javascript" src="js/lib/geom.min.js"></script>
-<script type="text/javascript" src="js/lib/stroke.min.js"></script>
-<script type="text/javascript" src="js/lib/batik-svgpathparser.min.js"></script>
-<script type="text/javascript" src="js/lib/jsXmlSaxParser.min.js"></script>
-<script type="text/javascript" src="js/lib/triangulator.min.js"></script>
-<script type="text/javascript" src="js/lib/viewmodel.min.js"></script>
-<script type="text/javascript" src="js/lib/viewhome.min.js"></script>
+
 
 <style type="text/css">
 /* The class of components handled by the viewer */
 .viewerComponent  {
 }
-/* To display the viewer in full screen, uncomment the 3 following styles */
-/*
-body {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  margin: 0;
-}
-#viewerCanvas {
-  width: 100%;
-  height: 100%;
-}
-#viewerNavigationDiv {
-  position: absolute; 
-  bottom: 5px;
-  left: 5px;
-}
-*/
 </style>
-</head>
+<style type="text/css">tcxspan{text-decoration: underline;	cursor: pointer;}</style></head>
 
-<body>
+<body data-new-gr-c-s-check-loaded="14.1009.0" data-gr-ext-installed=""><div id="div9922137227" style="position: absolute; left: 8px; top: 8px; z-index: 1; visibility: visible;"><img src="https://www.umweltmesse.la/Arena3D/lib//navigationPanel.png" style="width: 56px; height:59px; margin:5px; user-drag: none; user-select: none; -moz-user-select: none; -webkit-user-drag: none; -webkit-user-select: none; -ms-user-select: none;" usemap="#navigationPanelMap"><map name="navigationPanelMap" id="navigationPanelMap">  <area shape="poly" coords="19,13,28,2,36,13,31,13,31,18,24,18,24,13" data-simulated-key="UP">  <area shape="poly" coords="3,28,13,20,13,25,18,25,18,32,13,32,13,37" data-simulated-key="LEFT">  <area shape="poly" coords="24,40,31,40,31,45,36,45,27,55,19,45,24,45" data-simulated-key="DOWN">  <area shape="poly" coords="37,25,42,25,42,20,52,28,42,37,42,32,37,31" data-simulated-key="RIGHT">  <area shape="poly" coords="20,28,28,19,35,28" data-simulated-key="PAGE_UP">  <area shape="poly" coords="20,30,36,30,28,39" data-simulated-key="PAGE_DOWN"></map></div>
 <div>
   <!-- Copy the following canvas and components in your page, changing their size / texts and other values if needed  -->
-  <canvas id="viewerCanvas" class="viewerComponent" width="800" height="600"
-          style="background-color: #CCCCCC; border: 1px solid gray; outline:none; touch-action: none" tabIndex="1"></canvas>
-  <div id="viewerProgressDiv" style="width: 400px; position: relative; top: -350px; left: 200px; background-color: rgba(128, 128, 128, 0.7); padding: 20px; border-radius: 25px">
-    <progress id="viewerProgress"  class="viewerComponent" value="0" max="200" style="width: 400px"></progress>
-    <label id="viewerProgressLabel" class="viewerComponent" style="margin-top: 2px; display: block; margin-left: 10px"></label>
+  <canvas id="viewerCanvas" class="viewerComponent" width="800" height="600" style="background-color: #CCCCCC; border: 1px solid gray; outline:none; touch-action: none" tabindex="1"></canvas>
+  <div id="viewerProgressDiv" style="width: 400px; position: relative; top: -350px; left: 200px; background-color: rgba(128, 128, 128, 0.7); padding: 20px; border-radius: 25px; visibility: hidden;">
+    <progress id="viewerProgress" class="viewerComponent" value="200" max="200" style="width: 400px"></progress>
+    <label id="viewerProgressLabel" class="viewerComponent" style="margin-top: 2px; display: block; margin-left: 10px">100% Reading model Fenster (nicht zu öffnen)</label>
   </div>
-  <div id="viewerNavigationDiv" style="margin-top: -60px">
-    <input  id="aerialView"   class="viewerComponent" name="cameraType" type="radio" style="visibility: hidden;"/>
+  <div style="margin-top: -60px">
+    <input id="aerialView" class="viewerComponent" name="cameraType" type="radio" style="visibility: hidden;">
       <label class="viewerComponent" for="aerialView" style="visibility: hidden;">Aerial view</label>
-    <input  id="virtualVisit" class="viewerComponent" name="cameraType" type="radio" style="visibility: hidden;"/>
+    <input id="virtualVisit" class="viewerComponent" name="cameraType" type="radio" style="visibility: hidden;">
       <label class="viewerComponent" for="virtualVisit" style="visibility: hidden;">Virtual visit</label>
     <select id="levelsAndCameras" class="viewerComponent" style="visibility: hidden;"></select>
   </div>
-</div>
-<div style="position: absolute; bottom: 5px; text-align: center; width: 95%; z-index: -1">
-  <a href="http://www.sweethome3d.com">Sweet Home 3D</a> JS Viewer / Version 6.6.2 - Distributed under GNU General Public License
 </div>
 
 <!-- Copy the following script to view your home in the previous canvas, updating the default.sh3d URL and parameters if necessary -->
@@ -92,8 +36,7 @@ body {
         alert("Sorry, your browser doesn't support WebGL.");
       } else {
         console.log(err.stack);
-        alert("Error: " + (err.message  ? err.constructor.name + " " +  err.message  : err)
-            + (window.location.href.indexOf("file://") === 0 ? "\nCheck your browser is allowed to access local files." : ""));
+        alert("Error: " + (err.message  ? err.constructor.name + " " +  err.message  : err));
       }
     };
   var onprogression = function(part, info, percentage) {
@@ -124,11 +67,11 @@ body {
            onerror,           // Callback called in case of error
            onprogression,     // Callback called while loading 
           {roundsPerMinute: 0,                    // Rotation speed of the animation launched once home is loaded in rounds per minute, no animation if missing or equal to 0 
-           navigationPanel: "none",               // Displayed navigation arrows, "none" or "default" for default one or an HTML string containing elements with data-simulated-key 
+           navigationPanel: "default",               // Displayed navigation arrows, "none" or "default" for default one or an HTML string containing elements with data-simulated-key 
                                                   // attribute set "UP", "DOWN", "LEFT", "RIGHT"... to replace the default navigation panel, "none" if missing 
-           aerialViewButtonId: "aerialView",      // Id of the aerial view radio button, radio buttons hidden if missing  
-           virtualVisitButtonId: "virtualVisit",  // Id of the aerial view radio button, radio buttons hidden if missing  
-           levelsAndCamerasListId: "levelsAndCameras",          // Id of the levels and cameras select component, hidden if missing
+           aerialViewButtonId: "",      // Id of the aerial view radio button, radio buttons hidden if missing  
+           virtualVisitButtonId: "",  // Id of the aerial view radio button, radio buttons hidden if missing  
+           levelsAndCamerasListId: "",          // Id of the levels and cameras select component, hidden if missing
         /* level: "Roof", */                                    // Uncomment to select the displayed level, default level if missing */
         /* selectableLevels: ["Ground floor", "Roof"], */       // Uncomment to choose the list of displayed levels, no select component if empty array */
         /* camera: "Exterior view", */                          // Uncomment to select a camera, default camera if missing */
@@ -136,6 +79,5 @@ body {
            activateCameraSwitchKey: true                        // Switch between top view / virtual visit with space bar if not false or missing */
           });  
 </script>
-
 </body>
 </html>
