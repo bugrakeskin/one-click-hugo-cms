@@ -129,7 +129,7 @@ url = "about/"
 [[languages.en.menu.main]]
 name = "My Resume"
 weight = 2
-url = "https://drive.google.com/file/d/1Y_ByC-Jg0ZlROR9rpE7JR4Sv2WOmWrZD/view?usp=sharing"
+url = "https://drive.google.com/file/d/19ldzOw3Zry0JSIK-kJYhqzZSNl026REl/view?usp=sharing"
 
 #[[languages.en.menu.main]]
 #name = "Blog"
