@@ -1,8 +1,8 @@
 +++
 title = "About"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2020-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
+description = "About me"
+date = "2023-02-13"
+aliases = ["about-us", "contact"]
 author = "Buğra"
 +++
 
@@ -10,42 +10,38 @@ author = "Buğra"
 
   
 
-## Hi there, my name is Buğra. I'm a network administrator, system analyst, IT specialist with a passion for implementing new technologies for companies.
+## Hi there, my name is Buğra. I'm a network administrator, system analyst, DevOps Engineer with a passion for implementing new technologies for companies.
 
   
 
-I have 15yrs+ experience working as a professional information Technologies expert. For more details check out [My Resume](https://drive.google.com/file/d/1Y_ByC-Jg0ZlROR9rpE7JR4Sv2WOmWrZD/view?usp=sharing) Also check [my page](https://www.kariyer.net/ozgecmis/bugrakeskin15?o=c15o) on (kariyer net)
-
-  
-
----
-
-👨‍🚀 **Hire me** I’m happy to talk about work engagements for 2022, [Reach out](mailto:bugra.keskin@gmail.com)
+I have 15yrs+ experience working as a professional information Technologies expert. In 2022, I said goodbye to the traditional IT industry and stepped into the developer world. I have been developing myself in DevOps engineering for about 6 months. I work as a system supervisor / Devops supervisor in a company that has signed big projects in Estonia. 
+For more details check out [My Resume](https://drive.google.com/file/d/1Y_ByC-Jg0ZlROR9rpE7JR4Sv2WOmWrZD/view?usp=sharing) Also check [my page](https://www.kariyer.net/ozgecmis/bugrakeskin15?o=c15o) on (kariyer net)
 
   
 
 ---
 
-In recent years my focus is on leading an operation to handle all requests coming from contracted companies.
+👨‍🚀 **Hire me** I’m happy to talk about work engagements for 2023, [Reach out](mailto:bugra.keskin@gmail.com)
 
   
 
-- Do I need a server to operate?
+---
 
-- Can you prepare me a small app to manage this?
+### What are my responsibilites?.
 
-- Help me to build an AIO documentation portal.
 
-- How can I access all my files online and everywhere?
+- Administration of the IT infrastructure
+- Choosing the right deployment models
+- Conducting the testing protocol and critical monitoring
+- Automation of repetitive tasks
+- Provide the server support and the application support
+- Ensure that the backup is sufficient, and if there isn’t any adequate backup, then you have to create a backup policy as well
+
+
+
 
 [Lets talk business](mailto:bugra.keskin@gmail.com)
-
- 
-I am also a huge crypto enthusiast. Lately, I helped my company to create a token called **GMCoin** (*TRC10*).Also, i help to design a business model for changing the whole business entirely. Which called the **decentralized business model**.
-
 ---
 <code> Languages</code> Feel free to [get in touch](mailto:bugra.keskin@gmail.com) in Turkish and/or English.
 
-
-![Buğra Keskin](/images/bk.jpg)
 
