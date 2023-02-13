@@ -15,7 +15,7 @@ author = "Buğra"
   
 
 I have 15yrs+ experience working as a professional information Technologies expert. In 2022, I said goodbye to the traditional IT industry and stepped into the developer world. I have been developing myself in DevOps engineering for about 6 months. I work as a system supervisor / Devops supervisor in a company that has signed big projects in Estonia. 
-For more details check out [My Resume](https://drive.google.com/file/d/1Y_ByC-Jg0ZlROR9rpE7JR4Sv2WOmWrZD/view?usp=sharing) Also check [my page](https://www.kariyer.net/ozgecmis/bugrakeskin15?o=c15o) on (kariyer net)
+For more details check out [My Resume](https://drive.google.com/file/d/1T-UqbH81aO3y0yWvdLrQrtbH2z5WLRdC/view?usp=sharing) Also check [my page](https://www.kariyer.net/ozgecmis/bugrakeskin15?o=c15o) on (kariyer net)
 
   
 
